@@ -3,44 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A simple HTML template for your project">
-    <title>My Web Page</title>
-    <link rel="stylesheet" href="style.css"> <!-- Link to external CSS if needed -->
+    <title>Excursion App</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
     <!-- Header Section -->
     <header>
         <h1>Discover hidden places in the world around you</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Download Excursion (Coming soon!)</a></li>
-            </ul>
-        </nav>
+        <a href="#" class="download-link">Download Excursion (Coming soon!)</a>
     </header>
 
     <!-- Main Content Section -->
     <main>
-        <h2>Your personal travel guide</h2>
-        <p>Excursion remembers places you like, and recommends new points of interest around you.</p>
-        <video src="videos/excursion.mp4" controls width="600" height="400">
-                Your browser does not support the video tag.
-        </video>
-        <p>
-            <img src="images/landscape.jpg" alt="Landcape photo width="600" height="400">
-        </p>
-        <p>
-            <img src="images/phone_icon.jpg" alt="Phone Icon="600" height="400">
-        </p>
-        <h2>Your personal travel guide</h2>
-        <li><a href="#home">Download Excursion (Coming soon!)</a></li>
+        <section id="feature">
+            <!-- Phone Mockup Image -->
+            <img src="images/phone-mockup.png" alt="Phone showing waterfall video" class="mockup">
+        </section>
 
+        <section id="description">
+            <h2>Your personal travel guide</h2>
+            <p class="subtitle">Excursion remembers places you like, and recommends new points of interest around you.</p>
+        </section>
+
+        <section id="photo">
+            <!-- Camping Tent Photo -->
+            <img src="images/camping-photo.jpg" alt="Camping tents under a starry sky" class="photo">
+        </section>
+
+        <section id="coming-soon">
+            <!-- Coming Soon Icon -->
+            <div class="icon">&#128241;</div> <!-- Unicode for a smartphone icon -->
+            <p class="coming-soon">Coming Soon for iPhone and Android</p>
+            <a href="#" class="download-link">Download Excursion (Coming soon!)</a>
+        </section>
     </main>
-
 
     <!-- Footer Section -->
     <footer>
-        <p>&copy; 2024 My Website. All rights reserved.</p>
+        <p>&copy; Excursion</p>
     </footer>
 
 </body>
