@@ -1,6 +1,6 @@
 /* General Styling */
 body {
-    background-color: #333333; /* Black background */
+    background-color: #333333; /* Dark background */
     color: white;
     font-family: Verdana, sans-serif;
     text-align: center;
@@ -8,50 +8,77 @@ body {
     padding: 0;
 }
 
-/* Headline Text */
-h1 {
+/* Header */
+header h1 {
     font-size: 50px;
     font-weight: normal;
-    color: white;
     margin-top: 50px;
+    color: white;
 }
 
-h2 {
+header .download-link {
+    color: aquamarine;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+header .download-link:hover {
+    text-decoration: underline;
+}
+
+/* Feature Section (Phone Mockup) */
+#feature .mockup {
+    width: 300px;
+    margin: 20px auto;
+    display: block;
+}
+
+/* Description Section */
+#description h2 {
     font-size: 42px;
     font-weight: 300;
     color: white;
     margin: 30px 0 10px;
 }
 
-/* Subtitle and Description Text */
-p.subtitle {
+#description .subtitle {
     font-size: 21px;
     color: gray;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
-/* Download Link */
-a.download-link {
-    color: aquamarine;
-    font-size: 16px;
-    text-decoration: none;
-}
-
-a.download-link:hover {
-    text-decoration: underline;
-}
-
-/* Image Section */
-img.mockup {
-    width: 300px; /* Adjust as needed */
+/* Photo Section */
+#photo .photo {
+    width: 100%;
+    max-width: 800px;
     margin: 20px auto;
     display: block;
 }
 
 /* Coming Soon Section */
-.coming-soon {
+#coming-soon .icon {
+    font-size: 48px;
+    color: white;
+    margin-top: 30px;
+}
+
+#coming-soon .coming-soon {
     font-size: 32px;
     color: white;
-    margin-top: 40px;
+    margin: 10px 0 20px;
+}
+
+#coming-soon .download-link {
+    color: aquamarine;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+#coming-soon .download-link:hover {
+    text-decoration: underline;
 }
 
 /* Footer */
